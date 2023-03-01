@@ -1,0 +1,76 @@
+.vc_column-inner {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pix-pb-50.pix-portfolio-nav {
+  padding-bottom: 60px !important;
+  .btn-link {
+    color: #007bff;
+    text-decoration: none !important;
+  }
+  .tekup_portfolio_filter {
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .is-checked {
+    background: #f8d000;
+    color: #212529;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 15%) !important;
+  }
+
+  a {
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    strong {
+      color: #212529;
+    }
+  }
+
+  .btn {
+    font-weight: 400;
+    text-align: center;
+    border: 0rem solid transparent;
+    margin-right: 10px;
+    line-height: 1.8;
+    line-break: normal;
+  }
+}
+.portfolio_grid{
+    flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  z-index: 0;
+  position: relative;
+  &-body {
+    padding: 16px;
+    margin: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 32px);
+    background: #ffffff;
+    box-shadow: 0px 12px 28px rgb(0 0 0 / 14%);
+    border-radius: 8px;
+    transition: all 0.3s;
+    flex: 1 1 auto;
+    .card-title {
+      color: #212529;
+    }
+    .pixicon-angle-right {
+      font-weight: bold;
+      color: #212529;
+    }
+  }
+}
+.shadow {
+  box-shadow: 0 0.125rem 0.375rem rgb(0 0 0 / 5%),
+    0 0.5rem 1.2rem rgb(0 0 0 / 10%) !important;
+}
